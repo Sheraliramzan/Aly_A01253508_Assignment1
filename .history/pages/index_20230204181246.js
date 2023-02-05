@@ -54,7 +54,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-          <Image alt=""
+          <Image alt='Up'
             src={"/background-images/menuBackground.png"}
             width={240}
             height={240}

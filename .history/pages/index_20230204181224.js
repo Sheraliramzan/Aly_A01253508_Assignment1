@@ -33,7 +33,7 @@ export default function Home() {
                 height={30}
                 onClick={handleClick}
               />
-              <Image alt='' className='gardimg' src={"/icons/graduation-hat.png"} width={40} height={30} />
+              <Image className='gardimg' src={"/icons/graduation-hat.png"} width={40} height={30} />
           </div>
           <div className="menucont">
           <div className="listcont">
@@ -54,7 +54,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-          <Image alt=""
+          <Image
             src={"/background-images/menuBackground.png"}
             width={240}
             height={240}

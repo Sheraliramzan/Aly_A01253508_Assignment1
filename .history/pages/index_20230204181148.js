@@ -27,19 +27,19 @@ export default function Home() {
       <main className={styles.main}>
         <div className='fullcont'>
           <div className="navcont">
-              <Image alt='' className='menuimg'
+              <Image className='menuimg'
                 src={"/icons/menu-icon.png"}
                 width={40}
                 height={30}
                 onClick={handleClick}
               />
-              <Image alt='' className='gardimg' src={"/icons/graduation-hat.png"} width={40} height={30} />
+              <Image className='gardimg' src={"/icons/graduation-hat.png"} width={40} height={30} />
           </div>
           <div className="menucont">
           <div className="listcont">
             <div className="btncont">
               <button className="close" onClick={handleClick}>
-                <strong>X</strong>
+                <strong></strong>X
               </button>
             </div>
               <ul>
@@ -54,7 +54,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-          <Image alt=""
+          <Image
             src={"/background-images/menuBackground.png"}
             width={240}
             height={240}
